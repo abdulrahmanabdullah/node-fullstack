@@ -14,5 +14,9 @@ export function addUser(name, email) {
     .then((result) => {
       return result.json();
     })
-    .then((data) => console.log(data));
+    .then((data) => {
+      if (data.message === 'success') {
+        location.reload();
+      }
+    });
 }
