@@ -3,6 +3,10 @@ export function deleteUser(id) {
     method: 'DELETE',
   })
     .then((result) => result.json())
-    .then((data) => console.log(data))
+    .then((data) => {
+      if (data.message === 'success') {
+        location.reload();
+      }
+    })
     .catch((err) => console.log(err));
 }
