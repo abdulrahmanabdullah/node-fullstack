@@ -3,16 +3,6 @@
   "code": 200,
   "users": [
     {
-      "id": 0,
-      "username": "John",
-      "email": "john@email.com"
-    },
-    {
-      "id": 2,
-      "username": "JS",
-      "email": "Js@email.com"
-    },
-    {
       "id": 3,
       "username": "JS",
       "email": "Js@email.com"
@@ -39,11 +29,6 @@
     },
     {
       "id": 8,
-      "name": "af",
-      "email": "a@email.com"
-    },
-    {
-      "id": 9,
       "name": "af",
       "email": "a@email.com"
     },

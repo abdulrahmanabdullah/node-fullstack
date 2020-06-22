@@ -65,7 +65,23 @@ app.post('/users', (req, res) => {
 });
 
 // DELETE user by id
-app.delete('/user:id', (req, res) => {});
+app.delete('/users/:id', (req, res) => {
+  const { id } = req.params;
+  console.log(id);
+  readUserFile().then((result) => {
+    // find user by id then modified users array .
+    const users = result.users.filter((user) => user.id !== parseInt(id));
+    result.users = users;
+    fs.writeFile(
+      'app/data/users.json',
+      JSON.stringify(result, null, 2),
+      (err) => {
+        if (err) console.log(err);
+      }
+    );
+    res.json({ message: 'success', id: id });
+  });
+});
 // Listener
 
 app.listen(

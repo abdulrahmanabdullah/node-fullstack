@@ -1,3 +1,4 @@
+import { deleteUser } from './deleteUser';
 // create table
 function generateTableHead(table, data) {
   let thead = table.createTHead();
@@ -21,6 +22,11 @@ function generateTableBody(table, data) {
       let td = document.createTextNode(element[key]);
       cell.appendChild(td);
     }
+    const deleteBtn = document.createElement('button');
+    deleteBtn.innerHTML = 'Delete';
+    deleteBtn.classList.add('delete-btn', 'btn', 'btn-danger');
+    deleteBtn.addEventListener('click', () => deleteUser(element.id));
+    row.appendChild(deleteBtn);
   }
 }
 
