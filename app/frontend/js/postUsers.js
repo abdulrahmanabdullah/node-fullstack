@@ -4,7 +4,7 @@ export function addUser(name, email) {
     name,
     email,
   };
-  fetch('http://localhost:2221/users', {
+  fetch('https://node-fullstack-app.herokuapp.com/users', {
     method: 'POST',
     headers: {
       'content-type': 'application/json',
