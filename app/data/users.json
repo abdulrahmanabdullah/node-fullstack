@@ -1,0 +1,86 @@
+{
+  "status": "Success",
+  "code": 200,
+  "users": [
+    {
+      "id": 0,
+      "username": "John",
+      "email": "john@email.com"
+    },
+    {
+      "id": 2,
+      "username": "JS",
+      "email": "Js@email.com"
+    },
+    {
+      "id": 3,
+      "username": "JS",
+      "email": "Js@email.com"
+    },
+    {
+      "id": 4,
+      "name": "af",
+      "email": "webpack@webpack.com"
+    },
+    {
+      "id": 5,
+      "name": "adf",
+      "email": "a@email.com"
+    },
+    {
+      "id": 6,
+      "name": "adf",
+      "email": "a@email.com"
+    },
+    {
+      "id": 7,
+      "name": "adf",
+      "email": "a@email.comxxxx"
+    },
+    {
+      "id": 8,
+      "name": "af",
+      "email": "a@email.com"
+    },
+    {
+      "id": 9,
+      "name": "af",
+      "email": "a@email.com"
+    },
+    {
+      "id": 10,
+      "name": "af",
+      "email": "a@email.com"
+    },
+    {
+      "id": 11,
+      "name": "adf",
+      "email": "React@emailc.oma"
+    },
+    {
+      "id": 12,
+      "name": "adf",
+      "email": "React@emailc.oma"
+    },
+    {
+      "id": 13,
+      "name": "adf",
+      "email": "React@emailc.oma"
+    },
+    {
+      "id": 14,
+      "name": "adf",
+      "email": "React@emailc.oma"
+    },
+    {
+      "id": 15,
+      "name": "Naif",
+      "email": "React@emailc.oma"
+    },
+    {
+      "id": 16,
+      "name": "",
+      "email": ""
+    }
+  ]
+}
